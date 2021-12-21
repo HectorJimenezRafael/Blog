@@ -19,6 +19,10 @@ h3 {
     font-size: 2rem;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 /* clases predefinidas */
 
@@ -123,13 +127,42 @@ header {
     background-position: center;
 }
 
+#card-5 {
+    background-image: url(../img/ina1.jfif);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-6 {
+    background-image: url(../img/ina2.png);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-7 {
+    background-image: url(../img/ina3.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-8 {
+    background-image: url(../img/ina_s.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
 .padding-s {
     padding: 0.5%;
 }
 
 footer {
-    background-color: aquamarine;
+    background-color: black;
     margin: 0;
+    color: white;
 }
 
 @media only screen and (max-width: 600px) {
